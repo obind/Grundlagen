@@ -1,0 +1,22 @@
+﻿<Window x:Class="ATM.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATM"
+        mc:Ignorable="d"
+        Title="Welcome" Height="450" Width="800" Background="Gray">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="78*"/>
+            <RowDefinition Height="189*"/>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="78*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="50" Height="77" Width="214" >Welcome</Label>
+        <Button Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"  FontSize="50" Click="Button_Click">GO</Button>
+    </Grid>
+</Window>
